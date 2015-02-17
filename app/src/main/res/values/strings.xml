@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // customizable="true" means you should modify given attribute to fulfill your Hackerspace needs.
+    <string name="app_name" translatable="false" >HSP Switcher</string>
+    <string name="app_version" translatable="false" >1.1</string>
+
+    //Fragments
+    <string name="title_activity_settings">HSP Switcher - Nastavení</string>
+
+    <string name="action_about">O aplikaci</string>
+    <string name="action_settings">Nastavení</string>
+
+    //Design
+    <string name="logo_alternative" translatable="false" >Hackerspace logo</string>
+    <string name="buttonInside_title">Měnící tlačítko</string>
+    <string name="title_info">Informace navíc:</string>
+    <string name="titleCurrentState">Stav:</string>
+    <string name="titleCurrentChange">Změnit:</string>
+    <string name="loading">Získávám data...</string>
+    <string name="enable_twitter" translatable="false" >Twitter</string>
+    <string name="imageStateAlt" >Aktuální stav</string>
+
+    //State getter parametres
+    <string name="HSP_STATE_URL" customizable="true" translatable="false">http://spaceapi.net/new/space/hspce/status/json</string>
+    <string name="HSP_STATE_ON" customizable="true" >Hackerspace Pardubice je otevřen.</string>
+    <string name="HSP_STATE_OFF" customizable="true">Hackerspace Pardubice je uzavřen.</string>
+    <string name="HSP_STATE_NULL">Nepodařilo se získat data :-(</string>
+
+    <string name="SPACE_API_STATE_KEY" translatable="false" >state</string>
+    <string name="SPACE_API_OPEN_KEY" translatable="false" >open</string>
+    <string name="SPACE_API_INFO_KEY" translatable="false" >message</string>
+    <string name="SPACE_API_TIMESTAMP_KEY" translatable="false" >lastchange</string>
+
+    //State changer tag names
+    <string name="SPACE_API_BASE" customizable="true" translatable="false" >http://spaceapi.net/new/space/hspce/sensor/set/?</string>
+    <string name="SPACE_API_KEY_TAG" translatable="false" >key</string>
+    <string name="SPACE_API_SENSORS_TAG" translatable="false" >sensors</string>
+    <string name="SPACE_API_STATE_GROUP" translatable="false" >\"state\"</string>
+    <string name="SPACE_API_OPEN_TAG" translatable="false" >\"open\"</string>
+    <string name="SPACE_API_MESSAGE_TAG" translatable="false" >\"message\"</string>
+    <string name="SPACE_API_TIMESTAMP_TAG" translatable="false" >\"lastchange\"</string>
+
+    <string name="THINGSPEAK_API_BASE" customizable="true" translatable="false" >http://api.thingspeak.com/apps/thingtweet/1/statuses/update?</string>
+    <string name="THINGSPEAK_API_TAG" translatable="false" >key</string>
+    <string name="THINGSPEAK_STATUS_TAG" translatable="false" >status</string>
+
+    //Settings
+    <string name="PREF_DISPLAY_NAME_KEY" translatable="false" >display_name</string>
+    <string name="PREF_DISPLAY_NAME_TITLE">Jméno</string>
+
+    //*Your HackerSpace Apis keys
+    <string name="SPACE_API_KEY" customizable="true" translatable="false" >*</string>
+    <string name="THINGSPEAK_API_KEY" customizable="true" translatable="false" >*</string>
+</resources>
